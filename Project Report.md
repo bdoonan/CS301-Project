@@ -23,6 +23,7 @@ the species it is and different perceptions. Through my method, I was able to pr
 it is more consistent and takes much less time and manpower.
 
 ![](https://github.com/bdoonan/CS301-Project/blob/main/Capture3.PNG)
+
 # Related Work
 
 The related work I used was the backfin notebook listed in the introduction and looking at the
@@ -47,7 +48,9 @@ to get data. This notebook uses a bounding box to isolate the fin of the whale o
 make the image smaller. This notebook also only looks at a particular whale, whale flute, to
 make it much easier and faster to train the model with about 1,2000 samples instead of 50,000.
 Examples of the bounding box are shown below.
+
 ![](https://github.com/bdoonan/CS301-Project/blob/main/Capture2.PNG)
+
 This method was also used to label all the data using the csv instead of having to constantly
 check the csv. This made using the data a lot easier, and more similar to the cats and dogs
 example we did in the homework.
@@ -61,6 +64,7 @@ I was having trouble coming up with a solution, but eventually found that some o
 utilized the backfin notebook. This notebook helped me identify the data mre properly, as it
 assigned weights to each image and also identified them based on weights and heights. The
 graphs of this are shown below.
+
 ![](https://github.com/bdoonan/CS301-Project/blob/main/Capture4.PNG)
 ![](https://github.com/bdoonan/CS301-Project/blob/main/Capture5.PNG)
 ![](https://github.com/bdoonan/CS301-Project/blob/main/Capture6.PNG)
@@ -79,7 +83,9 @@ long and is prone to crashing. I didn’t know how to implement a more complex a
 way to test the data and make the model, due to my inexperience and lack of examples with jax.
 The example notebook helped show graphs that seemed to show more accurate and meaningful
 results shown below.
+
 ![](https://github.com/bdoonan/CS301-Project/blob/main/Capture.PNG)
+
 These help model the confidence and precision of the model. Overall my model seems worse
 than the previously published work, but it was the best I could do.
 
