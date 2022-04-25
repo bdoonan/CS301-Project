@@ -22,7 +22,7 @@ the species it is and different perceptions. Through my method, I was able to pr
 95% for training and validation accuracy. This might be less accurate than predicting by eye, but
 it is more consistent and takes much less time and manpower.
 
-![](https://github.com/bdoonan/CS301-Project/blob/main/Capture.PNG)
+![](https://github.com/bdoonan/CS301-Project/blob/main/Capture3.PNG)
 # Related Work
 
 The related work I used was the backfin notebook listed in the introduction and looking at the
