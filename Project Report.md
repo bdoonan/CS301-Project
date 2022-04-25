@@ -42,14 +42,12 @@ The data I am using in this project is from the kaggle competition itself. The d
 images of certain fins of different whales and dolphins. With this data is a csv file that contains
 the information on the species of these particular species. There is also a folder of images to test
 the model generated on. These images themselves were difficult for me to work with as there
-
-
 were so many, around 50,000, so I used a public notebook called backfin detection with yolov
 to get data. This notebook uses a bounding box to isolate the fin of the whale or dolphin and
 make the image smaller. This notebook also only looks at a particular whale, whale flute, to
 make it much easier and faster to train the model with about 1,2000 samples instead of 50,000.
 Examples of the bounding box are shown below.
-
+![](https://github.com/bdoonan/CS301-Project/blob/main/Capture2.PNG)
 This method was also used to label all the data using the csv instead of having to constantly
 check the csv. This made using the data a lot easier, and more similar to the cats and dogs
 example we did in the homework.
@@ -63,9 +61,7 @@ I was having trouble coming up with a solution, but eventually found that some o
 utilized the backfin notebook. This notebook helped me identify the data mre properly, as it
 assigned weights to each image and also identified them based on weights and heights. The
 graphs of this are shown below.
-
-
-
+![](https://github.com/bdoonan/CS301-Project/blob/main/Capture3.PNG)
 These graphs portray the x_center vs. y_center, width vs. height, and area respectively. This data
 helped classify the data and group it. My approach was similar to the cats vs. dogs approach, but
 with more data classified in a different way. I used elegy to utilize jax to train the data using the
@@ -74,14 +70,13 @@ epoch method. By doing this I was able to effectively train the model.
 I had a lot of problems with the data as the original backfin notebook took me 9 hours to run, so I
 don’t know how accurate my data was. I was able to obtain a graph that displayed that the
 accuracy of the model increased over time to north of 90%, shown below.
-
+![](https://github.com/bdoonan/CS301-Project/blob/main/Capture3.PNG)
 The problem is that this model doesn’t always work as the amount of time the notebook takes is
 long and is prone to crashing. I didn’t know how to implement a more complex and effective
 way to test the data and make the model, due to my inexperience and lack of examples with jax.
 The example notebook helped show graphs that seemed to show more accurate and meaningful
 results shown below.
-
-
+![](https://github.com/bdoonan/CS301-Project/blob/main/Capture.PNG)
 These help model the confidence and precision of the model. Overall my model seems worse
 than the previously published work, but it was the best I could do.
 
@@ -94,10 +89,8 @@ images had seemingly random names as compared to the previous data we saw, which
 in numerical order. I also had to label the data utilizing the guiding csv because of this. Future
 ideas I would have is to familiarize myself with jax more beforehand, because I didn’t know how
 to properly utilize non-jax code in my project. I would also spend more time on this in the future,
-
-
 as my results were rushed due to the notebooks used taking a considerable amount of time to run,
-almost a full day of time each time ran.
+almost a full day of time each time I ran.
 
 
 
