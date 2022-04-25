@@ -61,7 +61,10 @@ I was having trouble coming up with a solution, but eventually found that some o
 utilized the backfin notebook. This notebook helped me identify the data mre properly, as it
 assigned weights to each image and also identified them based on weights and heights. The
 graphs of this are shown below.
-![](https://github.com/bdoonan/CS301-Project/blob/main/Capture3.PNG)
+![](https://github.com/bdoonan/CS301-Project/blob/main/Capture4.PNG)
+![](https://github.com/bdoonan/CS301-Project/blob/main/Capture5.PNG)
+![](https://github.com/bdoonan/CS301-Project/blob/main/Capture6.PNG)
+
 These graphs portray the x_center vs. y_center, width vs. height, and area respectively. This data
 helped classify the data and group it. My approach was similar to the cats vs. dogs approach, but
 with more data classified in a different way. I used elegy to utilize jax to train the data using the
